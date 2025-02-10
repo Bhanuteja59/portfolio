@@ -63,7 +63,7 @@ function Projects() {
           <div className="card project-card">
             <img
               className="card-img-top project-img"
-              src="/clickKart.png"
+              src="https://play-lh.googleusercontent.com/QoPlfH3MDa-fFtas0utCKx09NmzNdN1ak5kKOk328Y3Ri4zCTtB_tuVjqP5jYdDcrFY"
               alt="Card image 4"
             />
             <div className="card-body">
