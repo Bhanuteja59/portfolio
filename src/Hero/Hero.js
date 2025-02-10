@@ -29,7 +29,7 @@ function Hero() {
 
           <div className="col-12 col-md-6 text-center">
             <div className="image-container">
-              <img src="https://github.com/Bhanuteja59/portfolio/blob/main/public/Bhanu.png?raw=true" alt="profile" className="img-fluid" />
+              <img src="https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/upscalemedia-transformed.png?raw=true" alt="profile" className="img-fluid" />
             </div>
           </div>
         </div>
