@@ -1,0 +1,76 @@
+.skills-list ul {
+  padding-left: 20px;
+}
+
+.skills-list h4 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.skills-list .skill-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.progress {
+  height: 18px;
+  border-radius: 8px;
+  background-color: #e9ecef;
+  margin-top: 8px;
+  overflow: hidden;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  position: relative;
+  transition: width 1.5s ease-in-out;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+}
+
+.skill-percent {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.progress-bar:hover {
+  filter: brightness(1.2);
+  transition: 0.3s;
+}
+
+@keyframes progressBarAnimation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: var(--progress-width);
+  }
+}
+
+[data-aos="progress-bar"] {
+  animation: progressBarAnimation 1.5s ease-out forwards;
+}
+
+[data-aos="fade-up"] {
+  animation: fadeUp 1s ease-out;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
