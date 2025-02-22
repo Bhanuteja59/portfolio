@@ -32,8 +32,8 @@ const certificates = [
 const Certificates = () => {
   return (
     <section className="container my-5" data-aos="fade-up" id="certificates">
-      <h2 className="text-center mb-4 fw-bold">🎓 Certificates</h2>
       <div className="card shadow-lg p-4 rounded border">
+        <h2 className="text-center mb-4 fw-bold">🎓 Certificates</h2>
         <div id="certificatesCarousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             {certificates.map((cert, index) => (
