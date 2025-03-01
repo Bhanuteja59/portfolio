@@ -70,6 +70,7 @@ function Hero() {
             </div>
           </div>
 
+<<<<<<< HEAD
           <div className="col-12 col-md-6 text-center" >
             <div
               className={`image-container ${isClicked ? 'clicked' : ''}`}
@@ -80,6 +81,11 @@ function Hero() {
                 alt="profile"
                 className="img-fluid"
               />
+=======
+          <div className="col-12 col-md-6 text-center">
+            <div className="image-container">
+              <img src="https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/upscalemedia-transformed.png?raw=true" alt="profile" className="img-fluid" />
+>>>>>>> d0721f34b034f6af01a683023e9c2f8743387b19
             </div>
           </div>
         </div>
