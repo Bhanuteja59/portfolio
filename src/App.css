@@ -1,38 +1,133 @@
-.App {
+.title {
+  position: relative;
+  display: grid;
+  padding-bottom: 8px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 3px;
+  background-color: #ff0606;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+.loading-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #090a0f, #010409);
+  overflow: hidden;
+  z-index: 9999;
+  font-family: "Courier New", monospace;
+  padding: 0 5vw;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.matrix-code {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
+  opacity: 0.2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.matrix-code span {
+  color: #00ff99;
+  font-size: clamp(8px, 2vw, 16px);
+  animation: codeRain 2s linear infinite alternate;
+}
+
+@keyframes codeRain {
+  0% {
+    opacity: 0.3;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(20px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.glitch-text {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5px;
+  filter: drop-shadow(0 0 10px #00ffcc);
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.glitch-text span {
+  display: inline-block;
+  transition: color 0.2s ease-in-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.glitch-text span:hover {
+  color: #ff0066;
+  transform: scale(1.1);
+}
+
+.loading-subtext {
+  margin-top: 15px;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: #00ffcc;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .loading-container {
+    padding: 0 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .glitch-text {
+    font-size: 2rem;
+  }
+
+  .matrix-code {
+    top: 5%;
+    height: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .glitch-text {
+    font-size: 1.8rem;
+  }
+
+  .matrix-code {
+    display: none; 
+  }
+
+  .loading-subtext {
+    font-size: 1rem;
   }
 }
