@@ -5,27 +5,22 @@ const certificates = [
     {
         title: "Core Java Programming",
         image: "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/Reddy%20Bhanu%20Teja.img_page-0001.jpg?raw=true",
-        url: "#",
     },
     {
         title: "Web Design - GUVI Hack A Thon",
         image: "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/GuviCertification%20-%209n92982N1P97mYf720-1.png?raw=true",
-        url: "#",
     },
     {
         title: " Figma - UI/UX Design",
         image: "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/126808753-1.jpg?raw=true",
-        url: "#",
     },
     {
         title: "Bootstrap and JQuery",
         image: "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/101817946%20(1).jpg?raw=true",
-        url: "#",
     },
     {
         title: "Java Script ",
         image: "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/100737056.jpg?raw=true",
-        url: "#",
     },
 ];
 
@@ -74,7 +69,6 @@ const Certificates = () => {
                         key={index}
                         href={cert.url}
                         className="cert-card "
-                        target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img src={cert.image} alt={cert.title} />
