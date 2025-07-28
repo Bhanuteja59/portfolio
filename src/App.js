@@ -9,6 +9,7 @@ import Achievements from "./components/achievements/Achievements"
 import Skills from "./components/skills/Skills";
 import Certificates from "./components/certificates/Certificates";
 import Projects from "./components/projects/Projects";
+import Links from "./components/links/Links";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
@@ -91,6 +92,7 @@ function App() {
           <Skills />
           <Certificates />
           <Projects />
+          <Links />
           <Contact />
           <SplashCursor />
           <Footer />

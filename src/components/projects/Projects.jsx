@@ -8,7 +8,7 @@ function Projects() {
       title: "Maths World - A Maths Learning Platform",
       image: "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-05-02%20154819.png?raw=true",
       link: "https://maths-world.vercel.app/",
-      badges: ['ReactJS', 'JavaScript', 'TailwindCSS', 'Bootstrap']
+      badges: ['NextJS', 'JavaScript', 'TailwindCSS', 'Bootstrap']
     },
     {
       title: "Carrer Guidence ",
@@ -21,12 +21,6 @@ function Projects() {
       image: "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20094307.png?raw=true",
       link: "https://online-connect.onrender.com/",
       badges: ['Django', 'Django-ORM', 'DBSqlite', 'Bootstrap', 'TailwindCSS']
-    },
-    {
-      title: "JOB MELA",
-      image: "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20094616.png?raw=true",
-      link: "https://application-form-6g3k.onrender.com/",
-      badges: ['NodeJS', 'MongoDB', 'ExpressJS','Bootstrap', 'TailwindCSS']
     },
     {
       title: "Click-kart Web Design",
