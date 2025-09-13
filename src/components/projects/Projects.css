@@ -1,0 +1,30 @@
+#projects{
+    background-color: aliceblue;
+}
+
+.project-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.card-body {
+    text-align: center;
+    padding: 10px;
+}

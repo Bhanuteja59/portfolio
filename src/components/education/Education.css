@@ -1,0 +1,38 @@
+.edu-box {
+  background-color: #ffffff;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #dee2e6;
+}
+
+.edu-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+.edu-header {
+  background-color: #0d6efd; /* Bootstrap primary */
+  color: #ffffff;
+  padding: 15px 20px;
+  border-bottom: 1px solid #0d6efd;
+}
+
+.edu-period {
+  font-size: 0.85rem;
+  color: #cfdcf8;
+}
+
+.edu-body {
+  padding: 20px;
+}
+
+.edu-degree {
+  display: inline-block;
+  background-color: #e7f1ff;
+  color: #0d6efd;
+  padding: 4px 10px;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  font-weight: 500;
+}

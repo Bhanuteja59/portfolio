@@ -1,0 +1,29 @@
+
+.contact-title::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #007bff;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.contact-card {
+  background: #fdfdfd;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid #f0f0f0;
+}
+
+.contact-link:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 1.8rem;
+  }
+}

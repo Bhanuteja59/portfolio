@@ -1,0 +1,22 @@
+.skill-card {
+  background-color: #fff;
+  border-left: 6px solid #647f9c;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 123, 255, 0.2);
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.progress {
+  height: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 4px;
+}
