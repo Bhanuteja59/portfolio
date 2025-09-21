@@ -68,7 +68,7 @@ function Hero() {
 
                         {/* Resume Button */}
                         <motion.a
-                            href="https://drive.google.com/file/d/1TFIYQmX1Okathbm5bpgEe1ntEP0wmURk/view"
+                            href="https://drive.google.com/file/d/1suigQoKSRanwP7Uo78-5oklwGh6O5en8/view?usp=drive_link"
                             download="Teja_Resume.pdf"
                             target="_blank"
                             whileHover={{ scale: 1.1 }}
