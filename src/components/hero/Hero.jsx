@@ -68,7 +68,7 @@ function Hero() {
 
                         {/* Resume Button */}
                         <motion.a
-                            href="https://drive.google.com/file/d/1suigQoKSRanwP7Uo78-5oklwGh6O5en8/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1cSTMl0TAfXciHijPiBjP-tHTXLJMynE4/view?usp=drive_link"
                             download="Teja_Resume.pdf"
                             target="_blank"
                             whileHover={{ scale: 1.1 }}
@@ -92,20 +92,20 @@ function Hero() {
                         {/* Social Icons */}
                         <div className="social-icons">
                             {[
-                                { link: "mailto:bhanutejareddy59@gmail.com", icon: "fab fa-google", class: "google" },
-                                { link: "https://www.linkedin.com/in/reddy-bhanuteja-160bb4184/", icon: "fab fa-linkedin-in", class: "linkedin" },
-                                { link: "https://github.com/Bhanuteja59", icon: "fab fa-github", class: "github" },
+                                { link: "mailto:bhanutejareddy59@gmail.com", icon: "fab fa-google", className: "google" },
+                                { link: "https://www.linkedin.com/in/reddy-bhanuteja-160bb4184/", icon: "fab fa-linkedin-in", className: "linkedin" },
+                                { link: "https://github.com/Bhanuteja59", icon: "fab fa-github", className: "github" },
                             ].map((social, index) => (
                                 <motion.a
                                     key={index}
                                     href={social.link}
-                                    className={`social-btn ${social.class}`}
+                                    className={`social-btn ${social.className}`}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     whileHover={{ scale: 1.2, rotate: 5 }}
                                     transition={{ type: "spring", stiffness: 300 }}
                                 >
-                                    <i className={social.icon}></i>
+                                    <i className={social.icon} aria-hidden="true"></i>
                                 </motion.a>
                             ))}
                         </div>

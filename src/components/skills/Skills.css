@@ -1,22 +1,178 @@
+/* src/components/skills/Skills.css */
+
+/* CSS variables for quick theme tweaks */
+:root {
+  --accent-from: #6ee7b7;
+  --accent-to: #60a5fa;
+  --bg-progress: #f1f5f9;
+  --text-muted: #0f172a;
+  --card-bg: #ffffff;
+}
+
+/* Section wrapper */
+.skills-section {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Controls */
+.skills-controls select.form-select {
+  min-width: 160px;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/* Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.05rem;
+}
+
+/* Card */
 .skill-card {
-  background-color: #fff;
-  border-left: 6px solid #647f9c;
-  transition: transform 0.3s ease;
-  box-shadow: 0 4px 16px rgba(0, 123, 255, 0.2);
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--card-bg);
+  align-items: center;
+  border: 1px solid rgba(15, 23, 42, 0.04);
+  transition: transform 220ms ease, box-shadow 220ms ease;
 }
 
+.skill-card:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.14);
+}
+
+/* Hover */
 .skill-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(2,6,23,0.06);
 }
 
-.progress {
-  height: 10px;
-  border-radius: 4px;
+/* Left: circular progress */
+.skill-left {
+  flex: 0 0 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-progress {
+  display: block;
+}
+
+/* Circle text */
+.c-progress-text {
+  fill: #0f172a;
+}
+
+/* Right content */
+.skill-right {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.skill-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.skill-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #0b1220;
+}
+
+.skill-percent {
+  font-weight: 700;
+  color: #0f172a;
+  font-size: .95rem;
+}
+
+/* tech list */
+.skill-tech {
+  margin: 0;
+  font-size: 0.92rem;
+  color: #475569;
   overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Linear progress (backup) */
+.linear-progress {
+  height: 10px;
+  background: var(--bg-progress);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 0.45rem;
+  margin-bottom: 0.35rem;
 }
 
 .progress-bar {
   height: 100%;
-  border-radius: 4px;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent-from), var(--accent-to));
+  transition: width 0.9s ease;
+}
+
+/* Skill actions */
+.skill-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+/* Buttons (appearance) */
+.skill-actions .btn {
+  padding: 0.35rem 0.6rem;
+  border-radius: 8px;
+}
+
+/* color mapping for badges (reuse your color tokens from user.json if desired) */
+/* you can add more .bg-* classes to match your user.json color names */
+.progress-bar.bg-success { background: linear-gradient(90deg,#10b981,#34d399); }
+.progress-bar.bg-info { background: linear-gradient(90deg,#60a5fa,#7dd3fc); }
+.progress-bar.bg-warning { background: linear-gradient(90deg,#f59e0b,#fbbf24); }
+.progress-bar.bg-dark { background: linear-gradient(90deg,#0f172a,#111827); }
+.progress-bar.bg-danger { background: linear-gradient(90deg,#ef4444,#f97316); }
+.progress-bar.bg-secondary { background: linear-gradient(90deg,#9ca3af,#6b7280); }
+
+/* Responsive */
+@media (max-width: 880px) {
+  .skill-card {
+    padding: 0.9rem;
+    gap: 0.8rem;
+  }
+  .skill-left { flex-basis: 84px; }
+  .c-progress { width: 72px; height: 72px; }
+}
+
+@media (max-width: 520px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .skill-card { flex-direction: row; align-items: center; gap: 0.75rem; }
+  .skill-tech { white-space: normal; }
+}
+
+/* Utility - visually hidden for labels */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .skill-card, .c-progress, .progress-bar { transition: none !important; animation: none !important; }
 }

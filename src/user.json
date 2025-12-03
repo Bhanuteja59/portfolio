@@ -1,0 +1,173 @@
+{
+  "achievements": [
+    {
+      "title": "JEE-Main's",
+      "subtitle": "2022",
+      "description": "Qualified in the JEE-Main's Exam and secured 84.7 percentile and Qualified to JEE-Advanced."
+    },
+    {
+      "title": "Figma - As a Mentor",
+      "subtitle": "2024",
+      "description": "Mentored students in Figma, helping them enhance their design skills and principles of UI/UX."
+    },
+    {
+      "title": "NPTEL SWAYAM",
+      "subtitle": "NPTEL-GOLD | 2025",
+      "description": "Qualified as Topper of NPTEL SWAYAM and secured Top 5%."
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Web Design - GUVI Hack A Thon",
+      "image": "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/GuviCertification%20-%209n92982N1P97mYf720-1.png?raw=true"
+    },
+    {
+      "title": "Google Cloud Computing Foundations and Genetative AI",
+      "image": "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/Screenshot%202025-12-03%20222525.png?raw=true"
+    },
+    {
+      "title": "Figma - UI/UX Design",
+      "image": "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/126808753-1.jpg?raw=true"
+    }
+  ],
+  "education": [
+    {
+      "school": "SVR Engineering College",
+      "degree": "B.Tech in CSE-AI",
+      "period": "2022-2026 , Nandyal",
+      "description": "Graduated with honors. Specialized in full-stack web development, UI/UX design."
+    },
+    {
+      "school": "Sri Chaitanya Junior College",
+      "degree": "Intermediate (MPC)",
+      "period": "2020 - 2022 , Kurnool",
+      "description": "Excelled in Physics, Chemistry, and Math. Achieved a better understanding of Mathematical concepts."
+    },
+    {
+      "school": "Sri Chaitanya Techno School",
+      "degree": "Secondary School of Education (SSC)",
+      "period": "2020 , Nandyal",
+      "description": "Active involvement in science fairs and quiz competitions."
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Bhanuteja59",
+      "icon": "FaGithub",
+      "library": "fa",
+      "description": "Browse my open-source repositories and contributions."
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bhanuteja59/",
+      "icon": "FaLinkedin",
+      "library": "fa",
+      "description": "Connect with me professionally."
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/u/bunny_2621/",
+      "icon": "SiLeetcode",
+      "library": "si",
+      "description": "Check out my coding solutions and stats."
+    },
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/profile/22am1a3118",
+      "icon": "FaHackerrank",
+      "library": "fa",
+      "description": "Explore my certifications and challenges."
+    },
+    {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/users/bunny_2621",
+      "icon": "SiCodechef",
+      "library": "si",
+      "description": "My CodeChef profile and rankings."
+    }
+  ],
+  "internships": [
+  {
+    "title": "EDU SKILLS – GOOGLE (AI-ML) INTERNSHIP",
+    "place": "Google (Edu Skills - AI/ML)",
+    "period": "April - June 2025",
+    "bullets": [
+      "Conducted extensive EDA using statistical summaries, correlation heatmaps, missing-value analysis, outlier detection, and pattern discovery to guide data cleaning and modeling decisions.",
+      "Applied essential ML techniques such as feature scaling, encoding, and baseline model training to validate data quality and assess predictive signal.",
+      "Built and deployed data workflows on Google Cloud and AI Platform for scalable data handling."
+    ],
+    "certificateUrl": "https://drive.google.com/file/d/1pC-qRQEjP_cT2Ew9Z07re1xXBtUJiUCD/view?usp=sharing"
+  }
+],
+  "projects": [
+    {
+      "title": "Maths World - A Maths Learning Platform",
+      "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-05-02%20154819.png?raw=true",
+      "link": "https://maths-world.vercel.app/",
+      "badges": ["NextJS", "NodeJS", "MongoDB", "Google-OAuth", "Bootstrap", "TailwindCSS", "API"]
+    },
+    {
+      "title": "Carrer Guidence",
+      "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20092944.png?raw=true",
+      "link": "https://carrer-guide-five.vercel.app/",
+      "badges": ["Reactjs", "Bootstrap", "TailwindCSS", "API"]
+    },
+    {
+      "title": "Online Connect - Online Invitation",
+      "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20094307.png?raw=true",
+      "link": "https://online-connect.onrender.com/",
+      "badges": ["Django", "Django-ORM", "DBSqlite", "Bootstrap", "TailwindCSS", "Python"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Front-End",
+      "technologies": "HTML, CSS, JS, Bootstrap, Tailwind CSS, React JS, Next JS",
+      "percent": 90,
+      "color": "bg-success"
+    },
+    {
+      "category": "Back-End",
+      "technologies": "Java, Python, C",
+      "percent": 85,
+      "color": "bg-info"
+    },
+    {
+      "category": "Database",
+      "technologies": "MySQL, MongoDB",
+      "percent": 80,
+      "color": "bg-warning"
+    },
+    {
+      "category": "Data Analysis",
+      "technologies": "EDA, Data Visualization",
+      "percent": 85,
+      "color": "bg-primary"
+    },
+    {
+      "category": "Testing",
+      "technologies": "Jest",
+      "percent": 85,
+      "color": "bg-dark"
+    },
+    {
+      "category": "Deployment",
+      "technologies": "Vercel, Render",
+      "percent": 80,
+      "color": "bg-danger"
+    },
+    {
+      "category": "Backend Tech",
+      "technologies": "Django, MERN Stack",
+      "percent": 70,
+      "color": "bg-secondary"
+    },
+    {
+      "category": "UI/UX Design",
+      "technologies": "Figma",
+      "percent": 90,
+      "color": "bg-info"
+    }
+  ]
+}
