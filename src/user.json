@@ -19,15 +19,15 @@
   "certificates": [
     {
       "title": "Web Design - GUVI Hack A Thon",
-      "image": "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/GuviCertification%20-%209n92982N1P97mYf720-1.png?raw=true"
+      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/guvi%20web%20design%20certificate.jpg?raw=true"
     },
     {
       "title": "Google Cloud Computing Foundations and Genetative AI",
-      "image": "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/Screenshot%202025-12-03%20222525.png?raw=true"
+      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/google%20AI%20cluod%20certificate.jpg?raw=true"
     },
     {
       "title": "Figma - UI/UX Design",
-      "image": "https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/126808753-1.jpg?raw=true"
+      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/figma%20UIUX%20certificate.jpg?raw=true"
     }
   ],
   "education": [
@@ -103,13 +103,13 @@
   "projects": [
     {
       "title": "Maths World - A Maths Learning Platform",
-      "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-05-02%20154819.png?raw=true",
+      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/maths-world.png?raw=true",
       "link": "https://maths-world.vercel.app/",
-      "badges": ["NextJS", "NodeJS", "MongoDB", "Google-OAuth", "Bootstrap", "TailwindCSS", "API"]
+      "badges": ["NextJS", "NodeJS", "MongoDB", "Google-OAuth", "API" ,"Bootstrap", "TailwindCSS"]
     },
     {
       "title": "Online Connect - Online Invitation",
-      "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20094307.png?raw=true",
+      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/online%20connect.webp?raw=true",
       "link": "https://online-connect.onrender.com/",
       "badges": ["Django", "Django-ORM", "DBSqlite", "Bootstrap", "TailwindCSS", "Python"]
     }
