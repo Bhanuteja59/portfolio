@@ -108,12 +108,6 @@
       "badges": ["NextJS", "NodeJS", "MongoDB", "Google-OAuth", "Bootstrap", "TailwindCSS", "API"]
     },
     {
-      "title": "Carrer Guidence",
-      "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20092944.png?raw=true",
-      "link": "https://carrer-guide-five.vercel.app/",
-      "badges": ["Reactjs", "Bootstrap", "TailwindCSS", "API"]
-    },
-    {
       "title": "Online Connect - Online Invitation",
       "image": "https://github.com/Bhanuteja59/waste/blob/main/Screenshot%202025-06-06%20094307.png?raw=true",
       "link": "https://online-connect.onrender.com/",
@@ -128,7 +122,7 @@
       "color": "bg-success"
     },
     {
-      "category": "Back-End",
+      "category": "Back-End Languages ",
       "technologies": "Java, Python, C",
       "percent": 85,
       "color": "bg-info"

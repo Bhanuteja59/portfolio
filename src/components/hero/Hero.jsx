@@ -3,7 +3,10 @@ import "./Hero.css";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
 
+import image from "../../assests/bhanu image.jpg"
+
 function Hero() {
+
     const [isClicked, setIsClicked] = useState(false);
 
     useEffect(() => {
@@ -122,7 +125,7 @@ function Hero() {
                             transition={{ duration: 0.5 }}
                         >
                             <motion.img
-                                src="https://github.com/Bhanuteja59/Bhanus-portfolio/blob/main/upscalemedia-transformed.png?raw=true"
+                                src={image}
                                 alt="profile"
                                 className="img-fluid"
                                 animate={{ rotate: isClicked ? 10 : 0 }}
