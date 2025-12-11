@@ -109,7 +109,7 @@
     },
     {
       "title": "Online Connect - Online Invitation",
-      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/online%20connect.webp?raw=true",
+      "image": "https://github.com/Bhanuteja59/portfolio/blob/main/src/assests/online%20connect.png?raw=true",
       "link": "https://online-connect.onrender.com/",
       "badges": ["Django", "Django-ORM", "DBSqlite", "Bootstrap", "TailwindCSS", "Python"]
     }

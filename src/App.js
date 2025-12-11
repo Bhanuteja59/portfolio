@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     // use variable so we can clear properly on unmount
-    const t = setTimeout(() => setLoading(false), 1500);
+    const t = setTimeout(() => setLoading(false), 2500);
     return () => clearTimeout(t);
   }, []);
 

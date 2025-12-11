@@ -71,7 +71,7 @@ function Hero() {
 
                         {/* Resume Button */}
                         <motion.a
-                            href="https://drive.google.com/file/d/1cSTMl0TAfXciHijPiBjP-tHTXLJMynE4/view?usp=drive_link"
+                            href="https://drive.google.com/file/d/1NKaKflQIoAT5arZNGewYTTTSewmxTr6C/view?usp=sharing"
                             download="Teja_Resume.pdf"
                             target="_blank"
                             whileHover={{ scale: 1.1 }}
@@ -119,15 +119,11 @@ function Hero() {
                         <motion.div
                             className={`image-container ${isClicked ? "clicked" : ""}`}
                             onClick={handleImageClick}
-                            initial={{ scale: 0.8, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
-                            whileHover={{ scale: 1.05 }}
-                            transition={{ duration: 0.5 }}
                         >
                             <motion.img
                                 src={image}
                                 alt="profile"
-                                className="img-fluid"
+                                className="img-fluid "
                                 animate={{ rotate: isClicked ? 10 : 0 }}
                                 transition={{ type: "spring", stiffness: 200 }}
                             />
